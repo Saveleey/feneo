@@ -1,1 +1,5 @@
-
+@font-face {
+    font-family: 'Univers', sans-serif;
+    src: local('Univers'),
+        url('univers_bold.ttf') format('truetype');
+}
