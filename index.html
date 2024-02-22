@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <meta charset="UTF-8">
         <meta name="description" content="Feneo — онлайн-сервис цифрового распространения компьютерных игр и программ, для разработчиков любого уровня, начиная от инди игр, заканчивая ААА играми">
         <meta name="keywords" content="Feneo, Фенео, игры, онлайн-сервис, программы, разработчики, инди, игр, ААА">
         <title>Feneo - магазин приложений</title>
-    </head>
+        <link rel = 'stylesheet' href="fonts.css"></link>
+        <style>
+            body {
+                overflow-x: hidden;
+            }
+            .txts {
+                color: rgb(255, 255, 255);
+                z-index: 4;
+                position: absolute;
+                left: 26%;
+                top: 0;
+                font-family: 'Univers';
+                font-size: 50px; 
+            }
+            .video_bg {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+                z-index: 2;
+                
+            }
+            .video {
+                position: fixed;
+                top: 0;
+                left: 0;
+                
+            }
+            .fone {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 3;
+            }
 
+            
+            
+        </style>
+    </head>
     <body>
-        <!-- Никогда не скачивай Vizzie! -->
-        <h1>Feneo - игры для всех!</h1>
-        <h2>P.S. Это сообщение видно только с телефона ;)</h2>
-        <p>HI1</p>
-        <a href="client installer/Windows/client.exe">Скачать клиент</a>
-        
+        <p class="txts">Feneo - это игры для всех!</p>
+        <div class="video">
+            <div class="fone"></div>
+            <video muted autoplay loop src="bgvideo.mp4" class="vedeo_bg"></video>
+        </div>
     </body>
 </html>
